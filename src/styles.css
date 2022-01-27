@@ -1,0 +1,51 @@
+:root {
+  --branding-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --card-background-color: #f5f2fe;
+}
+body {
+  text-align: center;
+  padding-top: 30px;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  opacity: 0.73;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.card-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  border: 1px solid var(--card-background-color);
+  background-color: var(--card-background-color);
+  padding: 10px;
+  margin: 20px 10px 20px 20px;
+}
+#contact-me-link {
+  text-decoration: none;
+  border: 1px solid --branding-color;
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  background-color: var(--branding-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+#about-me-link {
+  text-decoration: none;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  color: var(--branding-color);
+}
