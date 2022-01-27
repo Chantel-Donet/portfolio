@@ -89,12 +89,35 @@ p {
   text-decoration: underline;
 }
 .button-link {
-  margin: 20px;
+  display: block;
+  margin: 0 auto;
   border-radius: 4px;
   padding: 20px 15px;
+  max-width: 180px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
+}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 65px;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
 }
