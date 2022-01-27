@@ -101,7 +101,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-@media (max-width: 576px) {
+@media (max-width: 763px) {
   img {
     display: none;
   }
